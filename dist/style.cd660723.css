@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;}
+header{
+    padding:20px 50px;
+    display: flex;
+    justify-content: space-between;}
+#profile{
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+#proTwo{
+    color: #863796;
+}
+#btnOne ,#btnTwo ,#btnThree{
+background-color: #834098;
+height: 50px;
+width: 235px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 18px;
+border-radius: 15px;
+}
+#sectionBtn{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    
+}
+#continer{
+    margin: 0px 50px;
+    padding:20px 0px;
+    background-color: #F2F4F7;
+}
+#artCard{
+    height: 292px;
+    width: 220px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    padding:20px;
+}
+#btnCard button{
+    background-color: #5F61A8;
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+#textCard h3{
+    justify-items: center;
+    color:#5B99DD ;
+    font-size: 20px;
+}
+#sectionCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
